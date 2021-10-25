@@ -68,4 +68,4 @@ int main(){
 
     close(socketDescriptor);                            // may take a few seconds for OS to sinish closing. or you may endup with memeory leak!!!
 
-}vvvv
+}
