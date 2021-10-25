@@ -67,6 +67,6 @@ int main(){
     // Close socket (when done)
 
     close(socketDescriptor);                            // may take a few seconds for OS to sinish closing. or you may endup with memeory leak!!!
-
+    printf("Hello World!");
     printf("Hello World!");
 }
